@@ -5,6 +5,7 @@ import Title from "./Title";
 import items from "./data";
 
 import WhatsAppButton from "./WhatsAppButton";
+import InstaAppButton from "./Instagram";
 
 const allCategories = [
   "Tüm Ürünler",
@@ -31,6 +32,7 @@ function App() {
         <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItems} />
         <WhatsAppButton />
+        <InstaAppButton />
       </section>
     </main>
   );
