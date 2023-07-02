@@ -9,11 +9,11 @@ const menu = [
   },
   {
     id: 2,
-    title: 'PATSO',
+    title: 'SİMİT POĞAÇA',
     category: 'Yiyecek',
-    price: 18.00,
-    img: '/images/patso.jpg',
-    desc: `İçerik : Patates Ekmek istege göre ketçap mayonez.`,
+    price: 5.00,
+    img: '/images/pogaca.jpg',
+    desc: `İçerik: Simit, Peynirli Poğaça, Zeytinli Poğaça, Sade Poğaça İstege göre yanında üçgen peynirle sevris edilir .`,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const menu = [
     category: 'İçecek',
     price: 5.99,
     img: '/images/akmina.jpg',
-    desc: `Limon, Ananas, Nar, Kırmızı Orman Meyveleri Çeşitlerimiz mevcuttur.`,
+    desc: `Limon, Ananas, Elma, Nar, Kırmızı Orman Meyveleri Çeşitlerimiz mevcuttur.`,
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const menu = [
   },
   {
     id: 5,
-    title: 'Magnum',
+    title: 'MAGNUM',
     category: 'Dondurma',
     price: 25,
     img: '/images/magnum.jpg',
@@ -41,7 +41,7 @@ const menu = [
   },
   {
     id: 6,
-    title: 'Ankara Makarna',
+    title: 'ANKARA MAKARNA',
     category: 'Gıda',
     price: 15.00,
     img: '/images/ankara makarna.jpg',
@@ -91,7 +91,7 @@ const menu = [
   },
   {
     id: 12,
-    title: 'Kokusuz Küllük',
+    title: 'KOKUSUZ KÜLLÜK',
     category: 'Oto Aksesuar',
     price: 15,
     img: '/images/küllük.jpg',
@@ -101,13 +101,13 @@ const menu = [
     id: 13,
     title: 'KOLA',
     category: 'İçecek',
-    price: 35,
+    price: 15,
     img: '/images/gazlı.jpg',
     desc: `Cocacola,Fanta,Pepsi, Sprite ,Schweppes  şişe kutu litre çeşitlerimiz mevcuttur. ,`,
   },
   {
     id: 14,
-    title: 'Cornetto',
+    title: 'CORNETTO',
     category: 'Dondurma',
     price: 22.5,
     img: '/images/dondurma cornetto.jpg',
@@ -115,7 +115,7 @@ const menu = [
   },
   {
     id: 15,
-    title: 'Classics',
+    title: 'CLASSİCS',
     category: 'Dondurma',
     price: 10,
     img: '/images/nogger.jpg',
@@ -124,7 +124,7 @@ const menu = [
   
   {
     id: 16,
-    title: 'İndomie  Noodle',
+    title: 'İNDOMİE NOODLE',
     category: 'Gıda',
     price: 6.5,
     img: '/images/nodle.jpg',
@@ -133,7 +133,7 @@ const menu = [
   
   {
     id: 17,
-    title: 'Sıvı Yağ',
+    title: 'SIVI YAĞ',
     category: 'Gıda',
     price: 40,
     img: '/images/yag.jpg',
@@ -142,7 +142,7 @@ const menu = [
   
   {
     id: 18,
-    title: 'Tuz',
+    title: 'TUZ',
     category: 'Gıda',
     price: 10,
     img: '/images/salina.jpg',
@@ -243,6 +243,128 @@ const menu = [
     price: 25.00,
     img: '/images/omlet.jpg',
     desc: `İçerik Teretagı eşiginde yumurta tavada sevris edilir.`,
+  },
+  {
+    id: 31,
+    title: 'MEYVE TABAĞI',
+    category: 'Yiyecek',
+    price: 50.00,
+    img: '/images/meyve.jpg',
+    desc: `İçerik Mevsimine göre taze meyvelerden hazırlanıp sevris edilir.`,
+  },
+  {
+    id: 32,
+    title: 'SOĞUK KAHVE',
+    category: 'İçecek',
+    price: 25,
+    img: '/images/skahve.jpg',
+    desc: `Özel demlenmiş kahve istege göre sade ve sütlü şeklinde sevris edilir.`,
+  },
+  {
+    id: 33,
+    title: 'COOL LİME',
+    category: 'İçecek',
+    price: 25,
+    img: '/images/cool.jpg',
+    desc: `Yaz aylarında sıcak havadan bunalıp ferahlamak isteyenlerin tercihi.`,
+  },
+  {
+    id: 34,
+    title: 'CHURCHİLL',
+    category: 'İçecek',
+    price: 25,
+    img: '/images/chur.jpg',
+    desc: `Churchill soda, tuz ve limon suyunun buluşmasıyla hazırlanan, lezzetli soğuk bir içecektir.`,
+  },
+  {
+    id: 35,
+    title: 'LİMONATA',
+    category: 'İçecek',
+    price: 25,
+    img: '/images/limonata.jpg',
+    desc: `Ev yapımı limonatamıza diyecek bişey yok tavsiye ederiz.`,
+  },
+  {
+    id: 36,
+    title: 'PATSO',
+    category: 'Yiyecek',
+    price: 18.00,
+    img: '/images/patsoo.png',
+    desc: `İçerik: Patso ekmegine patso baharatlı patates istege göre ketçap mayonez .`,
+  },
+  {
+    id: 37,
+    title: 'SUCUKLU PATSO',
+    category: 'Yiyecek',
+    price: 24.00,
+    img: '/images/spatso.png',
+    desc: `İçerik: Patso ekmegine patso baharatlı patates ve sucuk istege göre ketçap mayonez .`,
+  },
+  {
+    id: 38,
+    title: 'SUCUKLU KAŞARLI PATSO',
+    category: 'Yiyecek',
+    price: 28.00,
+    img: '/images/skpatso.png',
+    desc: `İçerik: Patso ekmegine patso baharatlı patates, sucuk ve kaşar istege göre ketçap mayonez .`,
+  },
+  {
+    id: 39,
+    title: 'KAŞARLI PATSO',
+    category: 'Yiyecek',
+    price: 22.00,
+    img: '/images/kpatso.png',
+    desc: `İçerik: Patso ekmegine patso baharatlı patates ve kaşar istege göre ketçap mayonez .`,
   }
-];
+  ,
+  {
+    id: 40,
+    title: 'SOSİSLİ KAŞARLI PATSO',
+    category: 'Yiyecek',
+    price: 28.00,
+    img: '/images/kpatso.png',
+    desc: `İçerik: Patso ekmegine patso baharatlı patates, sosis ve kaşar istege göre ketçap mayonez .`,
+  },
+  {
+    id: 41,
+    title: 'KARIŞIK PATSO',
+    category: 'Yiyecek',
+    price: 32.00,
+    img: '/images/kkkpatso.png',
+    desc: `İçerik: Patso ekmegine patso baharatlı patates sucuk, sosis ve kaşar istege göre ketçap mayonez .`,
+  },
+  {
+    id: 42,
+    title: 'SOSİSLİ',
+    category: 'Yiyecek',
+    price: 18.00,
+    img: '/images/sosisli.png',
+    desc: `İçerik: Patso ekmegine sosis sos istege göre ketçap mayonez .`,
+  },
+  {
+    id: 43,
+    title: 'GORALI',
+    category: 'Yiyecek',
+    price: 22.00,
+    img: '/images/goralı.png',
+    desc: `İçerik: Patso ekmegine sosis sos ve amerikan salatası istege göre ketçap mayonez .`,
+  },
+  {
+    id: 44,
+    title: 'SOĞUK SANDVİÇ',
+    category: 'Yiyecek',
+    price: 22.00,
+    img: '/images/sandavic.png',
+    desc: `İçerik: Patso ekmegine Salam, Beyaz Peynir, Kaşar,Domates, Salatalık, Marul.`,
+  },
+  {
+    id: 45,
+    title: 'SALATA',
+    category: 'Yiyecek',
+    price: 22.00,
+    img: '/images/salata.png',
+    desc: `İçerik: Peynir, Zeytin, Göbek, Havuç, Kırmızı Lahana, Nane, Roka, Fesleğen, Dereotu, Maydanoz, Domates, Salatalık, Kapya Biberi, Turşu, Mıs`,
+  }
+  
+]; 
 export default menu;
