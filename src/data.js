@@ -19,7 +19,7 @@ const menu = [
     id: 3,
     title: 'AKMİNA MADEN SUYU',
     category: 'İçecek',
-    price: 5.99,
+    price: 7,
     img: '/images/akmina.jpg',
     desc: `Limon, Ananas, Elma, Nar, Kırmızı Orman Meyveleri Çeşitlerimiz mevcuttur.`,
   },
@@ -27,9 +27,9 @@ const menu = [
     id: 4,
     title: 'SİGARA',
     category: 'Sigara',
-    price: 36.00,
+    price: 43,
     img: '/images/ekrem.jpg',
-    desc: `tüm sigara çeşitleri 36.00 tl -45.00 tl `,
+    desc: `tüm sigara çeşitleri 41.00 tl -47.00 tl `,
   },
   {
     id: 5,
@@ -103,7 +103,7 @@ const menu = [
     category: 'İçecek',
     price: 15,
     img: '/images/gazlı.jpg',
-    desc: `Cocacola,Fanta,Pepsi, Sprite ,Schweppes  şişe kutu litre çeşitlerimiz mevcuttur. ,`,
+    desc: `Cocacola,Fanta,Pepsi, Sprite ,Schweppes  şişe , kutu, 1 litre, 1.5 litre, 2,5 litre çeşitlerimiz mevcuttur. ,`,
   },
   {
     id: 14,
@@ -365,6 +365,14 @@ const menu = [
     img: '/images/salata.png',
     desc: `İçerik: Peynir, Zeytin, Göbek, Havuç, Kırmızı Lahana, Nane, Roka, Fesleğen, Dereotu, Maydanoz, Domates, Salatalık, Kapya Biberi, Turşu, Mıs`,
   }
-  
+  ,
+  {
+    id: 46,
+    title: 'PACANGA',
+    category: 'Yiyecek',
+    price: 10.00,
+    img: '/images/pacanga.jpg',
+    desc: `İçerik:  Kaşar, Salam, Sosis, Kapya biber, `,
+  }
 ]; 
 export default menu;
