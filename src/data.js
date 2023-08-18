@@ -373,6 +373,14 @@ const menu = [
     price: 10.00,
     img: '/images/pacanga.jpg',
     desc: `İçerik:  Kaşar, Salam, Sosis, Kapya biber, `,
+  },
+  {
+    id: 47,
+    title: 'PACANGA',
+    category: 'Yiyecek',
+    price: 10.00,
+    img: '/images/pacanga.jpg',
+    desc: `İçerik:  Kaşar, Salam, Sosis, Kapya biber, `,
   }
 ]; 
 export default menu;
