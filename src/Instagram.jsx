@@ -2,7 +2,7 @@ import React from "react";
 
   const InstaAppButton = () => {
     const handleClickins = () => {
-      window.open("https://www.toptanservis.com.tr/", "_blank");
+      window.open("https://www.instagram.com/kosemmarketbufe/?igshid=OGQ5ZDc2ODk2ZA%3D%3D", "_blank");
     };
 
   return (
