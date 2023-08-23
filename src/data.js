@@ -1,6 +1,6 @@
 const menu = [
   {
-    id: 27,
+    id: 1,
     title: 'MENEMEN',
     category: 'Yiyecek',
     price: 60.00,
@@ -8,7 +8,7 @@ const menu = [
     desc: `İçerik :Biber, Domates, (istege göre sogan) Yumurta .`,
   },
   {
-    id: 30,
+    id: 2,
     title: 'OMLET',
     category: 'Yiyecek',
     price: 40.00,
@@ -16,7 +16,7 @@ const menu = [
     desc: `İçerik Teretagı eşiginde yumurta tavada sevris edilir.`,
   },
   {
-    id: 28,
+    id: 3,
     title: 'KAHVALTI TABAĞI',
     category: 'Yiyecek',
     price: 65.00,
@@ -24,23 +24,16 @@ const menu = [
     desc: `İçerik :Haşlanmış yumurta(istege göre omlet) Peynir, Domates, Salatalık, Zeytin, Reçel,Patates .`,
   },
   {
-    id: 29,
+    id: 4,
     title: 'KAVURMALI YUMURTA',
     category: 'Yiyecek',
     price: 75.00,
     img: '/images/kyumurta.jpg',
     desc: `İçerik Kavurtma eti teragıyı eşliginde 2 yumurta ile tavada sevris edilir.`,
   },
+
   {
-    id: 22,
-    title: 'KAŞARLI TOST',
-    category: 'Yiyecek',
-    price: 40.00,
-    img: '/images/ktost.jpg',
-    desc: `İçerik :Tost Ekmeği arası kaşar peyniri.ve patates kızartması eşliğinde.`,
-  }, 
-  {
-    id: 22,
+    id: 5,
     title: 'KARIŞIK TOST',
     category: 'Yiyecek',
     price: 50.00,
@@ -48,7 +41,7 @@ const menu = [
     desc: `İçerik :Tost Ekmeği arası sucuk ve kaşar peyniri. Patates kızartması eşliğinde.`,
   }, 
   {
-    id: 2,
+    id: 6,
     title: 'GÖZLEME',
     category: 'Yiyecek',
     price: 50,
@@ -56,7 +49,15 @@ const menu = [
     desc: `İçerik: Kumru gözleme (Sosis , Salam , Sucuk , Kaşar peyniri). isteğe göre sade kaşarlı ve çiştlerimiz mevcuttur.  .`,
   }, 
   {
-    id: 25,
+    id: 7,
+    title: 'KAŞARLI TOST',
+    category: 'Yiyecek',
+    price: 40.00,
+    img: '/images/ktost.jpg',
+    desc: `İçerik :Tost Ekmeği arası kaşar peyniri.ve patates kızartması eşliğinde.`,
+  }, 
+  {
+    id: 8,
     title: 'KAVURMALI KAŞARLI TOST',
     category: 'Yiyecek',
     price: 70.00,
@@ -64,16 +65,7 @@ const menu = [
     desc: `İçerik :Tost ekmeği arası kaşar peyniri ve kavurma ve patates kızartması eşliğinde.`,
   },
   {
-    id: 26,
-    title: 'AYVALIK TOSTU',
-    category: 'Yiyecek',
-    price: 60.00,
-    img: '/images/ayvalık.jpg',
-    desc: `İçerik :Ayvalık tost ekmegine sucuk, sosis, salam, domates, patates, amerikan salatası ve patates kızartması eşliğinde.`,
-  },
-  
-  {
-    id: 23,
+    id: 9,
     title: 'SUCUKLU TOST',
     category: 'Yiyecek',
     price: 42.00,
@@ -81,7 +73,7 @@ const menu = [
     desc: `İçerik :Tost ekmeği arası sucuk. ve patates kızartması eşliğinde.`,
   },
   {
-    id: 36,
+    id: 10,
     title: 'PATSO',
     category: 'Yiyecek',
     price: 35.00,
@@ -89,7 +81,7 @@ const menu = [
     desc: `İçerik: Patso ekmegine patso baharatlı patates istege göre ketçap mayonez .`,
   },
   {
-    id: 37,
+    id: 11,
     title: 'SUCUKLU PATSO',
     category: 'Yiyecek',
     price: 37.00,
@@ -97,7 +89,7 @@ const menu = [
     desc: `İçerik: Patso ekmegine patso baharatlı patates ve sucuk istege göre ketçap mayonez .`,
   },
   {
-    id: 38,
+    id: 12,
     title: 'SUCUKLU KAŞARLI PATSO',
     category: 'Yiyecek',
     price: 40.00,
@@ -105,7 +97,7 @@ const menu = [
     desc: `İçerik: Patso ekmegine patso baharatlı patates, sucuk ve kaşar istege göre ketçap mayonez .`,
   },
   {
-    id: 39,
+    id: 13,
     title: 'KAŞARLI PATSO',
     category: 'Yiyecek',
     price: 37.00,
@@ -114,7 +106,7 @@ const menu = [
   }
   ,
   {
-    id: 40,
+    id: 14,
     title: 'SOSİSLİ KAŞARLI PATSO',
     category: 'Yiyecek',
     price: 40.00,
@@ -122,7 +114,7 @@ const menu = [
     desc: `İçerik: Patso ekmegine patso baharatlı patates, sosis ve kaşar istege göre ketçap mayonez .`,
   },
   {
-    id: 41,
+    id: 15,
     title: 'KARIŞIK PATSO',
     category: 'Yiyecek',
     price: 45.00,
@@ -130,7 +122,7 @@ const menu = [
     desc: `İçerik: Patso ekmegine patso baharatlı patates sucuk, sosis ve kaşar istege göre ketçap mayonez .`,
   },
   {
-    id: 42,
+    id: 16,
     title: 'SOSİSLİ',
     category: 'Yiyecek',
     price: 32.00,
@@ -138,23 +130,16 @@ const menu = [
     desc: `İçerik: Patso ekmegine sosis sos istege göre ketçap mayonez .`,
   },
   {
-    id: 43,
-    title: 'GORALI',
-    category: 'Yiyecek',
-    price: 35.00,
-    img: '/images/goralı.png',
-    desc: `İçerik: Patso ekmegine sosis sos ve amerikan salatası istege göre ketçap mayonez .`,
-  },
-  {
-    id: 44,
+    id: 17,
     title: 'SOĞUK SANDVİÇ',
     category: 'Yiyecek',
     price: 30.00,
     img: '/images/sandavic.png',
     desc: `İçerik: Patso ekmegine Salam, Beyaz Peynir, Kaşar,Domates, Salatalık, Marul.`,
   },
+  
   {
-    id: 46,
+    id: 18,
     title: 'PACANGA',
     category: 'Yiyecek',
     price: 10.00,
@@ -162,7 +147,7 @@ const menu = [
     desc: `İçerik:  Kaşar, Salam, Sosis, Kapya biber, (adet fiyatıdır.)`,
   },
   {
-    id: 46,
+    id: 19,
     title: 'SİĞARA BÖREĞİ',
     category: 'Yiyecek',
     price: 7.00,
@@ -170,7 +155,7 @@ const menu = [
     desc: `İçerik:   yufka ekmeği içerisinde peynir , maydanoz (adet fiyatıdır.) `,
   },
   {
-    id: 35,
+    id: 20,
     title: 'LİMONATA',
     category: 'İçecek',
     price: 25,
@@ -178,7 +163,7 @@ const menu = [
     desc: `Ev yapımı limonatamıza diyecek bişey yok tavsiye ederiz.`,
   },
   {
-    id: 32,
+    id: 21,
     title: 'SOĞUK KAHVE',
     category: 'İçecek',
     price: 25,
@@ -186,7 +171,7 @@ const menu = [
     desc: `Özel demlenmiş kahve istege göre sade ve sütlü şeklinde sevris edilir.`,
   },
   {
-    id: 33,
+    id: 22,
     title: 'COOL LİME',
     category: 'İçecek',
     price: 25,
@@ -194,7 +179,7 @@ const menu = [
     desc: `Yaz aylarında sıcak havadan bunalıp ferahlamak isteyenlerin tercihi.`,
   },
   {
-    id: 34,
+    id: 23,
     title: 'CHURCHİLL',
     category: 'İçecek',
     price: 25,
@@ -203,7 +188,7 @@ const menu = [
   },
   
   {
-    id: 3,
+    id: 24,
     title: 'MADEN SUYU',
     category: 'İçecek',
     price: 7,
@@ -211,7 +196,7 @@ const menu = [
     desc: `beypazrı, damla ve akmina - Limon, Ananas, Elma, Nar, Kırmızı Orman Meyveleri Çeşitlerimiz mevcuttur.`,
   },
   {
-    id: 4,
+    id: 25,
     title: 'CİPS',
     category: 'Atıştırmalık',
     price: 20,
@@ -219,7 +204,7 @@ const menu = [
     desc: `Lays, Doritos(cubun), Ruffles, Çerezza çeşitleri mevcuttur.`,
   },
   {
-    id: 5,
+    id: 26,
     title: 'MAGNUM',
     category: 'Dondurma',
     price: 25,
@@ -228,7 +213,7 @@ const menu = [
   },
   
   {
-    id: 47,
+    id: 27,
     title: 'Kahve ve çay',
     category: 'Çay Kahve',
     price: 0,
@@ -236,7 +221,7 @@ const menu = [
     desc: `İçerik: Ada çayları çeşitleri , Babil ve Dibek kahve çeşitleri menengiç , dibek , antep fıstıklı dibek ve osmanlı dibek kahvesi çeşitleri   `,
   },
   {
-    id: 48,
+    id: 28,
     title: 'Kahve Çeşitleri',
     category: 'Çay Kahve',
     price: 0,
@@ -244,7 +229,7 @@ const menu = [
     desc: `İçerik: Elruha 400 gr ve 800 gr çay çeşitleri , 3 ü 1 arada kahve çeiştleri mevcuttur.   `,
   },
   {
-    id: 6,
+    id: 29,
     title: 'ANKARA MAKARNA',
     category: 'Gıda',
     price: 15.00,
@@ -252,7 +237,7 @@ const menu = [
     desc: `Spaghetti, Fiyonk, Burgu, Yüksük, Kelebek çeşitlerimiz mevcuttur.`,
   },
   {
-    id: 7,
+    id: 30,
     title: 'KURUYEMİŞ',
     category: 'Çerez',
     price: 0,
@@ -261,7 +246,7 @@ const menu = [
   },
 
   {
-    id: 8,
+    id: 31,
     title: 'Elektronik',
     category: 'Elektronik',
     price: 0,
@@ -269,7 +254,7 @@ const menu = [
     desc: `Şarj başlıkları , şarj kabloları (type-c ve iphone), powerbank ,kulaklık , aux kablosu , Araç çakmaklığı , Araç çakmaklık mp3, Telefon tucu , Duracell saat ve kalem pil  `,
   },
   {
-    id: 9,
+    id: 32,
     title: 'Kırtasiye',
     category: 'Kırtasiye',
     price: 0,
@@ -277,7 +262,7 @@ const menu = [
     desc: `A3,A4,A5, Diplomat , Mektup Zarfı, japon yapıştırıcı , dosya çeşitleri, zımba , delgeç ,senet, not defteri, ve Kalem  Çeşitlerimiz mevcuttur.`,
   },
   {
-    id: 10,
+    id: 33,
     title: 'OFİS TEMİZLİK ÜRÜNLERİ',
     category: 'Temizlik',
     price: 0,
@@ -285,16 +270,9 @@ const menu = [
     desc: `Çamaşır suyu,Bulaşık deterjanı,Sıvı sabun Yag,kireç sökücü, Oda kokusu, Camsil Sarı bez, Cam bezi Bulaşık süngeri Küçük büyük battal boy çöp torbası karton pet baradak Yüzey temizleyici çeşitlerimiz vardır.
      fiyat bilgisi için whapsapdan yazabilirsiniz.`,
   },
+
   {
-    id: 11,
-    title: 'Düşler Bahçesi  Sigara Ve Kötü Koku Giderici 300 Ml',
-    category: 'Oto Aksesuar',
-    price: 50.00,
-    img: '/images/düşler bahçesi.jpg',
-    desc: `Düşler bahçesi spesiyal , Kavun , Begonvil, Tatlı düşler çeşitlerimiz mevcuttur. `,
-  },
-  {
-    id: 12,
+    id: 34,
     title: 'KOKUSUZ KÜLLÜK',
     category: 'Oto Aksesuar',
     price: 15,
@@ -302,7 +280,7 @@ const menu = [
     desc: `Araç içi veya ofis için kokusuz küllük`,
   },
   { 
-    id: 13,
+    id: 35,
     title: 'KOLA',
     category: 'İçecek',
     price: 15,
@@ -310,7 +288,7 @@ const menu = [
     desc: `Cocacola,Fanta,Pepsi, Sprite ,Schweppes  şişe , kutu, 1 litre, 1.5 litre, 2,5 litre çeşitlerimiz mevcuttur. ,`,
   },
   {
-    id: 14,
+    id: 36,
     title: 'CORNETTO',
     category: 'Dondurma',
     price: 25,
@@ -318,7 +296,7 @@ const menu = [
     desc: `Cornetto classic ,Aşk ateşi çeşitleri mevcuttur `,
   },
   {
-    id: 15,
+    id: 37,
     title: 'CLASSİCS',
     category: 'Dondurma',
     price: 10,
@@ -327,7 +305,7 @@ const menu = [
   },
   
   {
-    id: 16,
+    id: 38,
     title: 'İNDOMİE NOODLE',
     category: 'Gıda',
     price: 6.5,
@@ -336,7 +314,7 @@ const menu = [
   },
   
   {
-    id: 17,
+    id: 39,
     title: 'SIVI YAĞ',
     category: 'Gıda',
     price: 45,
@@ -345,7 +323,7 @@ const menu = [
   },
   
   {
-    id: 18,
+    id: 40,
     title: 'Baharat',
     category: 'Gıda',
     price: 0,
@@ -353,7 +331,7 @@ const menu = [
     desc: `Tüm baharat çeşiteri ve Salina sofra tuzu 500 gr tuzluk ambalajı ve 750 gr poşet ambalajlı çeşitleri mevcuttur.`,
   },
   { 
-    id: 19,
+    id: 41,
     title: 'GAZOZ',
     category: 'İçecek',
     price: 10,
@@ -361,7 +339,7 @@ const menu = [
     desc: `Beyoğlu sade, Beyoglu Turunçgiller, Çamlıca, Çamlıca Portakal, Nigde , Beylerbeyi gazoz cam şişe  çeşitlerimiz mevcuttur. ,`,
   },
   {
-    id: 20,
+    id: 42,
     title: 'ATIŞTIRMALIK',
     category: 'Atıştırmalık',
     price: 9.99,
@@ -369,7 +347,7 @@ const menu = [
     desc: `Tüm Eti,Ülker çikolata bisküvi  çeşitleri mevcuttur.`,
   },
   {
-    id: 21,
+    id: 43,
     title: 'SAKIZ',
     category: 'Atıştırmalık',
     price: 9.99,
@@ -377,7 +355,7 @@ const menu = [
     desc: `Falım, Vivident , Oneo , Yıldız sakız   çeşitleri mevcuttur.`,
   },  
   {
-    id: 1,
+    id: 44,
    title: 'SİGARA',
    category: 'Sigara',
    price: 43,
